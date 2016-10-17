@@ -72,7 +72,7 @@ module.exports = function(app) {
                 );
 
                 var itinIcon = new google.maps.MarkerImage(
-                    "./images/pin.png",
+                    "./images/signs.png",
                     null, /* size is determined at runtime */
                     null, /* origin is 0,0 */
                     null, /* anchor is bottom center of the scaled image */
@@ -80,20 +80,20 @@ module.exports = function(app) {
                 );
 
                 var eatsIcon = new google.maps.MarkerImage(
-                    "./images/food.png",
+                    "./images/cutlery.png",
                     null, /* size is determined at runtime */
                     null, /* origin is 0,0 */
                     null, /* anchor is bottom center of the scaled image */
-                    new google.maps.Size(40, 40)
+                    new google.maps.Size(30, 30)
                 );
 
 
                 var seeIcon = new google.maps.MarkerImage(
-                    "./images/tour.png",
+                    "./images/people.png",
                     null, /* size is determined at runtime */
                     null, /* origin is 0,0 */
                     null, /* anchor is bottom center of the scaled image */
-                    new google.maps.Size(50, 50)
+                    new google.maps.Size(30, 30)
                 );
 
                 $scope.itin = [];
